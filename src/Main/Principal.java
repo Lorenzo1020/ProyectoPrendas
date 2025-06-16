@@ -11,6 +11,10 @@ public class Principal {
 		// Declarar la coleccion de objeto
 		Ropas ropa1 = new Ropas("Prada", 240, "Gris", 5);
 		Ropas ropa2 = new Ropas("Mege", 450, "Azul", 6);
+		
+		//Se realiza la modificacion
+		float pi = 3.1416f;
+		System.out.println("Valor de pi "+pi);
 
 		// Instancia de clase----Ya tenemos acceso a todo lo que contenga esa clase
 		LogicaMetodos imp = new LogicaMetodos();
