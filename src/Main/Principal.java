@@ -9,14 +9,11 @@ public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		//Lourdes---8
-		//Pablo---7
-		//Erick---5
-		
-		System.out.println("Hola mundo");
-		System.out.println("Feliz incio de semana");
-		
+
+		// Lourdes---8
+		// Pablo---7
+		// Erick---5
+
 		Scanner lectura = null;
 
 		String marca;
@@ -156,24 +153,24 @@ public class Principal {
 			case 7:
 				System.out.println("Ingresen la marca");
 				lectura = new Scanner(System.in);
-				marca=lectura.nextLine();
-				
-				//Buscar por marca
+				marca = lectura.nextLine();
+
+				// Buscar por marca
 				ropa = imp.buscarXmarca(marca);
-				
-				if(ropa!=null) {
+
+				if (ropa != null) {
 					System.out.println(ropa);
-					
-					//Procedo para editar
+
+					// Procedo para editar
 					System.out.println("Ingrese la nueva talla");
-					lectura=new Scanner(System.in);
-					talla=lectura.nextInt();
-					
-					//Actualizar el objeto
+					lectura = new Scanner(System.in);
+					talla = lectura.nextInt();
+
+					// Actualizar el objeto
 					ropa.setTalla(talla);
-					//Actualizar el objeto en la lista
+					// Actualizar el objeto en la lista
 					imp.editarXmarca(ropa);
-				}else
+				} else
 					System.out.println("No existe para editar");
 				break;
 			case 8:
