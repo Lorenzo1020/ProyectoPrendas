@@ -14,6 +14,9 @@ public class Principal {
 		//Pablo---7
 		//Erick---5
 		
+		System.out.println("Hola mundo");
+		System.out.println("Feliz incio de semana");
+		
 		Scanner lectura = null;
 
 		String marca;
